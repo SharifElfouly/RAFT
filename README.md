@@ -13,7 +13,7 @@ Seems to be very good: [Optical Flow Estimation Benchmark](https://paperswithcod
 
 ## Requirements
 ```Shell
-pip3 install -r requirement.txt
+pip3 install -r requirements.txt
 ```
 
 ## How to use
