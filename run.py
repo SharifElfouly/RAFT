@@ -39,7 +39,7 @@ def viz(img, flo, i):
 
 def run(args):
     model = torch.nn.DataParallel(RAFT(args))
-    model.load_state_dict(torch.load(args.model))
+    model.load_state_dict(torch.load('models/raft-things.pth'))
 
     model = model.module
     model.to(DEVICE)
@@ -70,7 +70,6 @@ def run(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', help="restore checkpoint")
     parser.add_argument('--images_dir', help="directory with your images")
     parser.add_argument('--output_dir', help="optical flow images will be stored here as .npy files")
     args = parser.parse_args()
