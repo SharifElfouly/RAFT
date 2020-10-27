@@ -6,3 +6,4 @@ pytorch_env
 models
 build
 correlation.egg-info
+models/*
