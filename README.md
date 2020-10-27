@@ -2,7 +2,8 @@
 
 Cool way to calculate optical flow for two images.
 
-![Example](data/example.png)
+![Example](data/images.gif)
+![Example](data/of.gif)
 
 **Paper:** [RAFT: Recurrent All Pairs Field Transforms for Optical Flow](https://arxiv.org/pdf/2003.12039)
 
