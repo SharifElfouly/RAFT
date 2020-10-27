@@ -1,6 +1,8 @@
 # RAFT
 
-Cool way to calculate optical flow for two images.
+Cool way to calculate optical flow for two images very easily.
+
+Seems to be very good: [Optical Flow Estimation Benchmark](https://paperswithcode.com/sota/optical-flow-estimation-on-sintel-clean)
 
 ![Example](data/images.gif)
 ![Example](data/of.gif)
