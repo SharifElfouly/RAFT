@@ -17,7 +17,10 @@ conda install matplotlib
 conda install tensorboard
 conda install scipy
 conda install opencv
+click
 ```
+
+# CREATE README!
 
 ## Demos
 Pretrained models can be downloaded by running
