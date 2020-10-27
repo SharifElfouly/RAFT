@@ -1,1 +1,0 @@
-python3 run.py --model=models/raft-things.pth --images_dir='/home/sharif/Documents/commai-challenge/data/frames/test' --output_dir='/home/sharif/Documents/commai-challenge/data/frames/oooo'
